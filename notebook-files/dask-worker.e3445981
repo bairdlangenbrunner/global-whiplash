@@ -1,0 +1,325 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:47544'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:44150'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:44066'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:56312'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:45626'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:52687'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:58976'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:51846'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:41650'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:46095'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:56610'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:59593'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:55382'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:41522'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:42734'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:57198'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:34976'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.183:36966'
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:36205
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:59409
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:39999
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:59409
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:36205
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:39999
+distributed.worker - INFO -              nanny at:        10.148.11.183:45626
+distributed.worker - INFO -              nanny at:        10.148.11.183:59593
+distributed.worker - INFO -              nanny at:        10.148.11.183:47544
+distributed.worker - INFO -              bokeh at:        10.148.11.183:33332
+distributed.worker - INFO -              bokeh at:        10.148.11.183:36809
+distributed.worker - INFO -              bokeh at:        10.148.11.183:46408
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-97yz7zg5
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-lpam2c7v
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-vhn4wu07
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:36964
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:36964
+distributed.worker - INFO -              nanny at:        10.148.11.183:34976
+distributed.worker - INFO -              bokeh at:        10.148.11.183:59705
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-6fuyfwhr
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:47486
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:47486
+distributed.worker - INFO -              nanny at:        10.148.11.183:55382
+distributed.worker - INFO -              bokeh at:        10.148.11.183:59724
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-d8gyb7_9
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:35151
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:35151
+distributed.worker - INFO -              nanny at:        10.148.11.183:42734
+distributed.worker - INFO -              bokeh at:        10.148.11.183:35665
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:54119
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:54119
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              nanny at:        10.148.11.183:44066
+distributed.worker - INFO -              bokeh at:        10.148.11.183:38274
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:58872
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:58872
+distributed.worker - INFO -              nanny at:        10.148.11.183:44150
+distributed.worker - INFO -              bokeh at:        10.148.11.183:47752
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-puhc4opd
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-v_n0609l
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-dsn8w1ys
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:52363
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:52363
+distributed.worker - INFO -              nanny at:        10.148.11.183:56610
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:50361
+distributed.worker - INFO -              bokeh at:        10.148.11.183:38331
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:50361
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:44350
+distributed.worker - INFO -              nanny at:        10.148.11.183:58976
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:58961
+distributed.worker - INFO -              bokeh at:        10.148.11.183:45412
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:44350
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:58961
+distributed.worker - INFO -              nanny at:        10.148.11.183:51846
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              nanny at:        10.148.11.183:57198
+distributed.worker - INFO -              bokeh at:        10.148.11.183:37546
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:44102
+distributed.worker - INFO -              bokeh at:        10.148.11.183:43602
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:44102
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -              nanny at:        10.148.11.183:56312
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-5__flc4m
+distributed.worker - INFO -              bokeh at:        10.148.11.183:56012
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:38647
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-bq5k4n8w
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:38647
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:36246
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              nanny at:        10.148.11.183:41522
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-20srsr_k
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:36246
+distributed.worker - INFO -              bokeh at:        10.148.11.183:41902
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-wq23byt0
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              nanny at:        10.148.11.183:41650
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -              bokeh at:        10.148.11.183:47428
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-dh8ri7fo
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:48500
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:48500
+distributed.worker - INFO -              nanny at:        10.148.11.183:36966
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -              bokeh at:        10.148.11.183:49516
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-y2ug7puj
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-bhcvrdqn
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-sc007vka
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:55286
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:55286
+distributed.worker - INFO -              nanny at:        10.148.11.183:52687
+distributed.worker - INFO -              bokeh at:        10.148.11.183:47084
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-e76xhrvn
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://10.148.11.183:53578
+distributed.worker - INFO -          Listening to:  tcp://10.148.11.183:53578
+distributed.worker - INFO -              nanny at:        10.148.11.183:46095
+distributed.worker - INFO -              bokeh at:        10.148.11.183:44308
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                  333.33 MB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/worker-ymg14y5c
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.5:43818
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:47544'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:39999
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:44150'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:58872
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:44066'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:54119
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:56312'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:44102
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:45626'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:59409
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:52687'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:55286
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:58976'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:50361
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:51846'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:44350
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:41650'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:36246
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:46095'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:56610'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:53578
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:52363
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:59593'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:36205
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:55382'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:41522'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:47486
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:42734'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:38647
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:57198'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:35151
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:58961
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:34976'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.183:36966'
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:36964
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.183:48500
+distributed.dask_worker - INFO - End worker
