@@ -1,0 +1,23 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.9.158:55091'
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-3a2i5mj_', purging
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/dask-temporary/worker-3a2i5mj_' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/dask-temporary/worker-3a2i5mj_'
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-xc_ib4u_', purging
+distributed.worker - INFO -       Start worker at:   tcp://10.148.9.158:34294
+distributed.worker - INFO -          Listening to:   tcp://10.148.9.158:34294
+distributed.worker - INFO -              nanny at:         10.148.9.158:55091
+distributed.worker - INFO -              bokeh at:         10.148.9.158:55510
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.12.56:49060
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/dask-temporary/worker-js2mlotf
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.12.56:49060
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.12.56:49060
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.12.56:49060
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.12.56:49060
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.12.56:49060
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.9.158:55091'
+distributed.worker - INFO - Stopping worker at tcp://10.148.9.158:34294
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/dask-temporary/worker-js2mlotf' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/dask-temporary/worker-js2mlotf'
+distributed.dask_worker - INFO - End worker

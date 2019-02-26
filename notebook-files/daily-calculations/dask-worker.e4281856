@@ -1,0 +1,20 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.10.94:57875'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.10.94:33370
+distributed.worker - INFO -          Listening to:   tcp://10.148.10.94:33370
+distributed.worker - INFO -              nanny at:         10.148.10.94:57875
+distributed.worker - INFO -              bokeh at:         10.148.10.94:39731
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.12.56:35044
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /gpfs/u/home/baird/_github_repos/global-whiplash/notebook-files/daily-calculations/worker-u4sac48i
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.148.12.56:35044
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.10.94:33370
+distributed.diskutils - ERROR - Failed to remove '/gpfs/u/home/baird/_github_repos/global-whiplash/notebook-files/daily-calculations/worker-u4sac48i' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/u/home/baird/_github_repos/global-whiplash/notebook-files/daily-calculations/worker-u4sac48i'
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.10.94:57875'
+distributed.dask_worker - INFO - End worker

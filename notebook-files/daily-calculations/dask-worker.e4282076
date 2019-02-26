@@ -1,0 +1,66 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.10.28:58189'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.10.28:55480
+distributed.worker - INFO -          Listening to:   tcp://10.148.10.28:55480
+distributed.worker - INFO -              nanny at:         10.148.10.28:58189
+distributed.worker - INFO -              bokeh at:         10.148.10.28:52549
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.12.56:54081
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/dask-temporary/worker-4y43ihmr
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.148.12.56:54081
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.10.28:55480
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/dask-temporary/worker-4y43ihmr' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/dask-temporary/worker-4y43ihmr'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.10.28:34327
+distributed.worker - INFO -          Listening to:   tcp://10.148.10.28:34327
+distributed.worker - INFO -              nanny at:         10.148.10.28:58189
+distributed.worker - INFO -              bokeh at:         10.148.10.28:44864
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.12.56:54081
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/dask-temporary/worker-gz7og98t
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.148.12.56:54081
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.10.28:34327
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/dask-temporary/worker-gz7og98t' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/dask-temporary/worker-gz7og98t'
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-i123k_py', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-ekvwnekx', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-b_xr6jqv', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-smfzgwgj', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-3sox_br1', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-f0s463fq', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-su678fjp', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-59ybyqeg', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-qe9utvcm', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-0dzldg58', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-ofp_n4vm', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-sl_vkh5r', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-x8fe93jp', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-2qq16y33', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-ddnf_9bl', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-foabf4lw', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-x6wiae3v', purging
+distributed.worker - INFO -       Start worker at:   tcp://10.148.10.28:60004
+distributed.worker - INFO -          Listening to:   tcp://10.148.10.28:60004
+distributed.worker - INFO -              nanny at:         10.148.10.28:58189
+distributed.worker - INFO -              bokeh at:         10.148.10.28:51259
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.12.56:54081
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/dask-temporary/worker-v09ijqz3
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://10.148.12.56:54081
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.10.28:60004
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.10.28:58189'
+distributed.dask_worker - INFO - End worker

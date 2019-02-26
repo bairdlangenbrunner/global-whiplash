@@ -1,0 +1,37 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.10.191:58845'
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-hzl3m1cr', purging
+Process ForkServerProcess-1:
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/process.py", line 173, in _run
+    target(*args, **kwargs)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/nanny.py", line 511, in _run
+    worker = Worker(*worker_args, **worker_kwargs)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 416, in __init__
+    File(path))
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 63, in __init__
+    os.mkdir(self.directory)
+FileNotFoundError: [Errno 2] No such file or directory: '/glade/scratch/baird/dask-temporary/worker-oues7z44/storage'
+distributed.nanny - WARNING - Worker process 14501 exited with status 1
+distributed.nanny - WARNING - Restarting worker
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-dlq_vua4', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-422ikdiq', purging
+distributed.worker - INFO -       Start worker at:  tcp://10.148.10.191:56560
+distributed.worker - INFO -          Listening to:  tcp://10.148.10.191:56560
+distributed.worker - INFO -              nanny at:        10.148.10.191:58845
+distributed.worker - INFO -              bokeh at:        10.148.10.191:37915
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.6.38:43192
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/dask-temporary/worker-ltcje1z_
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:    tcp://10.148.6.38:43192
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.10.191:58845'
+distributed.worker - INFO - Stopping worker at tcp://10.148.10.191:56560
+distributed.dask_worker - INFO - End worker

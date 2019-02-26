@@ -1,0 +1,20 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.10.32:37489'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.10.32:38564
+distributed.worker - INFO -          Listening to:   tcp://10.148.10.32:38564
+distributed.worker - INFO -              nanny at:         10.148.10.32:37489
+distributed.worker - INFO -              bokeh at:         10.148.10.32:54603
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:34472
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /var/tmp/pbs.4273462.chadmin1/worker-ucdp_sns
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://10.148.13.150:34472
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.utils_perf - INFO - full garbage collection released 117.57 MB from 310 reference cycles (threshold: 10.00 MB)
+distributed.worker - INFO - Stopping worker at tcp://10.148.10.32:38564
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.10.32:37489'
+distributed.dask_worker - INFO - End worker

@@ -1,0 +1,24 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.7.25:33824'
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-xparal0u', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-b0f4s21b', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-ovcg_a8d', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-ry9o5f15', purging
+distributed.worker - INFO -       Start worker at:    tcp://10.148.7.25:53367
+distributed.worker - INFO -          Listening to:    tcp://10.148.7.25:53367
+distributed.worker - INFO -              nanny at:          10.148.7.25:33824
+distributed.worker - INFO -              bokeh at:          10.148.7.25:37047
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.188:36717
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/dask-temporary/worker-h12k9bop
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://10.148.13.188:36717
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.7.25:53367
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/dask-temporary/worker-h12k9bop' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/dask-temporary/worker-h12k9bop'
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.7.25:33824'
+distributed.dask_worker - INFO - End worker

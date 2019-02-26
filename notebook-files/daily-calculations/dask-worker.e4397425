@@ -1,0 +1,186 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.18:34526'
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/temp/worker-bh8a_tzn', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/temp/worker-7r7hb9a6', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/temp/worker-l2f28fdc', purging
+distributed.worker - INFO -       Start worker at:   tcp://10.148.11.18:46770
+distributed.worker - INFO -          Listening to:   tcp://10.148.11.18:46770
+distributed.worker - INFO -              nanny at:         10.148.11.18:34526
+distributed.worker - INFO -              bokeh at:         10.148.11.18:56813
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/temp/worker-dql6_c33
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.18:46770
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/temp/worker-dql6_c33' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/temp/worker-dql6_c33'
+distributed.nanny - WARNING - Restarting worker
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/temp/worker-9cqls0o5', purging
+distributed.worker - INFO -       Start worker at:   tcp://10.148.11.18:44984
+distributed.worker - INFO -          Listening to:   tcp://10.148.11.18:44984
+distributed.worker - INFO -              nanny at:         10.148.11.18:34526
+distributed.worker - INFO -              bokeh at:         10.148.11.18:57942
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/temp/worker-3d8dc36h
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.18:44984
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/temp/worker-3d8dc36h' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/temp/worker-3d8dc36h'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.11.18:58068
+distributed.worker - INFO -          Listening to:   tcp://10.148.11.18:58068
+distributed.worker - INFO -              nanny at:         10.148.11.18:34526
+distributed.worker - INFO -              bokeh at:         10.148.11.18:58884
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/temp/worker-6srsqh25
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.18:58068
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/temp/worker-6srsqh25' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/temp/worker-6srsqh25'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.11.18:42696
+distributed.worker - INFO -          Listening to:   tcp://10.148.11.18:42696
+distributed.worker - INFO -              nanny at:         10.148.11.18:34526
+distributed.worker - INFO -              bokeh at:         10.148.11.18:60771
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/temp/worker-uxut1ueq
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.18:42696
+distributed.worker - INFO -       Start worker at:   tcp://10.148.11.18:38551
+distributed.worker - INFO -          Listening to:   tcp://10.148.11.18:38551
+distributed.worker - INFO -              nanny at:         10.148.11.18:34526
+distributed.worker - INFO -              bokeh at:         10.148.11.18:40080
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/temp/worker-fsk2hobh
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.18:38551
+distributed.worker - INFO -       Start worker at:   tcp://10.148.11.18:41798
+distributed.worker - INFO -          Listening to:   tcp://10.148.11.18:41798
+distributed.worker - INFO -              nanny at:         10.148.11.18:34526
+distributed.worker - INFO -              bokeh at:         10.148.11.18:59116
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/temp/worker-qpm_yij6
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.18:41798
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/temp/worker-qpm_yij6' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/temp/worker-qpm_yij6'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.11.18:47823
+distributed.worker - INFO -          Listening to:   tcp://10.148.11.18:47823
+distributed.worker - INFO -              nanny at:         10.148.11.18:34526
+distributed.worker - INFO -              bokeh at:         10.148.11.18:55493
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/temp/worker-vqmik4la
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.18:47823
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/temp/worker-m_c7ff0r', purging
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/temp/worker-m_c7ff0r' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/temp/worker-m_c7ff0r'
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/temp/worker-kb1x57sp', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/temp/worker-cr38z09e', purging
+distributed.worker - INFO -       Start worker at:   tcp://10.148.11.18:53524
+distributed.worker - INFO -          Listening to:   tcp://10.148.11.18:53524
+distributed.worker - INFO -              nanny at:         10.148.11.18:34526
+distributed.worker - INFO -              bokeh at:         10.148.11.18:45774
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/temp/worker-b9td4pqz
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.18:53524
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/temp/worker-b9td4pqz' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/temp/worker-b9td4pqz'
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/temp/worker-72kv7c65', purging
+distributed.worker - INFO -       Start worker at:   tcp://10.148.11.18:33027
+distributed.worker - INFO -          Listening to:   tcp://10.148.11.18:33027
+distributed.worker - INFO -              nanny at:         10.148.11.18:34526
+distributed.worker - INFO -              bokeh at:         10.148.11.18:39664
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/temp/worker-_rmh53wm
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.18:33027
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/temp/worker-_rmh53wm' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/temp/worker-_rmh53wm'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.11.18:43663
+distributed.worker - INFO -          Listening to:   tcp://10.148.11.18:43663
+distributed.worker - INFO -              nanny at:         10.148.11.18:34526
+distributed.worker - INFO -              bokeh at:         10.148.11.18:51818
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/temp/worker-o4j8b3ux
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.18:43663
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/temp/worker-o4j8b3ux' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/temp/worker-o4j8b3ux'
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/temp/worker-r1hy4o2l', purging
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/temp/worker-r1hy4o2l/storage' (failed in <built-in function unlink>): [Errno 20] Not a directory: 'storage'
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/temp/worker-r1hy4o2l' (failed in <built-in function rmdir>): [Errno 2] No such file or directory: '/glade/scratch/baird/temp/worker-r1hy4o2l'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.11.18:37519
+distributed.worker - INFO -          Listening to:   tcp://10.148.11.18:37519
+distributed.worker - INFO -              nanny at:         10.148.11.18:34526
+distributed.worker - INFO -              bokeh at:         10.148.11.18:41184
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/temp/worker-6v76pav_
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - Waiting to connect to:     tcp://10.148.0.6:52480
+distributed.worker - INFO - Stopping worker at tcp://10.148.11.18:37519
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.18:34526'
+distributed.dask_worker - INFO - End worker

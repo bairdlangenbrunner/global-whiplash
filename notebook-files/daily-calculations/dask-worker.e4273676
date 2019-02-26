@@ -1,0 +1,25 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.9.139:37145'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.9.139:48164
+distributed.worker - INFO -          Listening to:   tcp://10.148.9.139:48164
+distributed.worker - INFO -              nanny at:         10.148.9.139:37145
+distributed.worker - INFO -              bokeh at:         10.148.9.139:47664
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /var/tmp/pbs.4273676.chadmin1/worker-tt23fpln
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:47152
+distributed.dask_worker - INFO - Exiting on signal 15
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.9.139:37145'
+distributed.dask_worker - INFO - End worker
+distributed.process - WARNING - reaping stray process <ForkServerProcess(ForkServerProcess-1, started daemon)>

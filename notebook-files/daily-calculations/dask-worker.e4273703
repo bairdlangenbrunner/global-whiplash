@@ -1,0 +1,30 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.9.200:58241'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.9.200:50532
+distributed.worker - INFO -          Listening to:   tcp://10.148.9.200:50532
+distributed.worker - INFO -              nanny at:         10.148.9.200:58241
+distributed.worker - INFO -              bokeh at:         10.148.9.200:59143
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /var/tmp/pbs.4273703.chadmin1/worker-vo20193r
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 25.50s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 25.87s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 20.10s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 39.11s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:47152
+distributed.worker - INFO - Stopping worker at tcp://10.148.9.200:50532
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.9.200:58241'
+distributed.dask_worker - INFO - Exiting on signal 15
+distributed.dask_worker - INFO - End worker

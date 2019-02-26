@@ -1,0 +1,66 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.11.23:52626'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.11.23:36347
+distributed.worker - INFO -          Listening to:   tcp://10.148.11.23:36347
+distributed.worker - INFO -              nanny at:         10.148.11.23:52626
+distributed.worker - INFO -              bokeh at:         10.148.11.23:38913
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:44940
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /var/tmp/pbs.4277339.chadmin1/worker-bxytr0mq
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://10.148.13.150:44940
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.42s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 35.00s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 33.71s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 42.13s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 28.45s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Can't find dependencies for key ('func-overlap-getitem-9b35b2fb40f7cc4a57eb77b82250a3fd', 4, 3, 10, 0)
+distributed.worker - INFO - Dependent not found: ('getitem-0492d4f74ee1dd7cebb39de1317245fa', 5, 3, 10) 0 .  Asking scheduler
+distributed.core - INFO - Event loop was unresponsive in Worker for 45.07s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+distributed.utils_perf - INFO - full garbage collection released 268.69 MB from 1362 reference cycles (threshold: 10.00 MB)
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+=>> PBS: job killed: walltime 10863 exceeded limit 10800
+distributed.dask_worker - INFO - Exiting on signal 15
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.11.23:52626'
+distributed.nanny - WARNING - Worker process 50489 was killed by unknown signal
+distributed.dask_worker - INFO - End worker

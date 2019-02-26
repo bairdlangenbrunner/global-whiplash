@@ -1,0 +1,14 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.9.56:56705'
+distributed.worker - INFO -       Start worker at:    tcp://10.148.9.56:42459
+distributed.worker - INFO -          Listening to:    tcp://10.148.9.56:42459
+distributed.worker - INFO -              nanny at:          10.148.9.56:56705
+distributed.worker - INFO -              bokeh at:          10.148.9.56:44143
+distributed.worker - INFO - Waiting to connect to:   tcp://10.148.12.71:60825
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /var/tmp/pbs.4280957.chadmin1/worker-sfbhdt0o
+distributed.worker - INFO - -------------------------------------------------
+distributed.dask_worker - INFO - Exiting on signal 15
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.9.56:56705'
+distributed.dask_worker - INFO - End worker

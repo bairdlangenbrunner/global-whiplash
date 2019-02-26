@@ -1,0 +1,26 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.9.119:58710'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.9.119:49824
+distributed.worker - INFO -          Listening to:   tcp://10.148.9.119:49824
+distributed.worker - INFO -              nanny at:         10.148.9.119:58710
+distributed.worker - INFO -              bokeh at:         10.148.9.119:56868
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:59946
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /var/tmp/pbs.4274798.chadmin1/worker-r0xprius
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://10.148.13.150:59946
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:59946
+distributed.utils_perf - INFO - full garbage collection released 199.00 MB from 3313 reference cycles (threshold: 10.00 MB)
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:59946
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:59946
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:59946
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:59946
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:59946
+distributed.worker - INFO - Stopping worker at tcp://10.148.9.119:49824
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.9.119:58710'
+distributed.dask_worker - INFO - End worker

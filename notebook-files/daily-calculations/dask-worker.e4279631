@@ -1,0 +1,897 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.7.122:55853'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.7.122:48987
+distributed.worker - INFO -          Listening to:   tcp://10.148.7.122:48987
+distributed.worker - INFO -              nanny at:         10.148.7.122:55853
+distributed.worker - INFO -              bokeh at:         10.148.7.122:51438
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.5.46:40005
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /var/tmp/pbs.4279631.chadmin1/worker-wsxb5e09
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:    tcp://10.148.5.46:40005
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 21.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 12.50s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 23.89s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 39.24s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.42s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 31.57s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 37.36s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - INFO - Failed to put key in memory
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 83, in __setitem__
+    f.write(v)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1356, in transition_executing_done
+    self.put_key_in_memory(key, value, transition=False)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 1548, in put_key_in_memory
+    self.data[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 80, in __setitem__
+    self.fast[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 71, in __setitem__
+    self.evict()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/lru.py", line 90, in evict
+    cb(k, v)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 52, in fast_to_slow
+    self.slow[key] = value
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/func.py", line 42, in __setitem__
+    self.d[key] = self.dump(value)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 85, in __setitem__
+    f.write(value)
+OSError: [Errno 28] No space left on device
+distributed.worker - ERROR - "('concatenate-d2fe6d71716384862735cab74de7be2d', 2, 5, 1)"
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 2, 5, 1)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 2, 5, 1)"
+distributed.worker - ERROR - "('concatenate-d2fe6d71716384862735cab74de7be2d', 5, 3, 15)"
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 5, 3, 15)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 5, 3, 15)"
+distributed.worker - ERROR - "('concatenate-d2fe6d71716384862735cab74de7be2d', 9, 2, 5)"
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 9, 2, 5)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 9, 2, 5)"
+tornado.application - ERROR - Exception in callback functools.partial(<function wrap.<locals>.null_wrapper at 0x2aaabe00b950>, <Future finished exception=KeyError("('concatenate-d2fe6d71716384862735cab74de7be2d', 2, 5, 1)")>)
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 2, 5, 1)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 758, in _run_callback
+    ret = callback()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 779, in _discard_future_result
+    future.result()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/gen.py", line 326, in wrapper
+    yielded = next(result)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 2, 5, 1)"
+tornado.application - ERROR - Exception in callback functools.partial(<function wrap.<locals>.null_wrapper at 0x2aab12407620>, <Future finished exception=KeyError("('concatenate-d2fe6d71716384862735cab74de7be2d', 5, 3, 15)")>)
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 5, 3, 15)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 758, in _run_callback
+    ret = callback()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 779, in _discard_future_result
+    future.result()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/gen.py", line 326, in wrapper
+    yielded = next(result)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 5, 3, 15)"
+tornado.application - ERROR - Exception in callback functools.partial(<function wrap.<locals>.null_wrapper at 0x2aaabdcfc730>, <Future finished exception=KeyError("('concatenate-d2fe6d71716384862735cab74de7be2d', 9, 2, 5)")>)
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 9, 2, 5)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 758, in _run_callback
+    ret = callback()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 779, in _discard_future_result
+    future.result()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/gen.py", line 326, in wrapper
+    yielded = next(result)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 9, 2, 5)"
+distributed.worker - ERROR - "('concatenate-d2fe6d71716384862735cab74de7be2d', 4, 5, 5)"
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 4, 5, 5)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 4, 5, 5)"
+tornado.application - ERROR - Exception in callback functools.partial(<function wrap.<locals>.null_wrapper at 0x2aab10c7ca60>, <Future finished exception=KeyError("('concatenate-d2fe6d71716384862735cab74de7be2d', 4, 5, 5)")>)
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 4, 5, 5)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 758, in _run_callback
+    ret = callback()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 779, in _discard_future_result
+    future.result()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/gen.py", line 326, in wrapper
+    yielded = next(result)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 4, 5, 5)"
+distributed.worker - ERROR - "('concatenate-d2fe6d71716384862735cab74de7be2d', 4, 5, 5)"
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 4, 5, 5)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 4, 5, 5)"
+tornado.application - ERROR - Exception in callback functools.partial(<function wrap.<locals>.null_wrapper at 0x2aaaadf2ac80>, <Future finished exception=KeyError("('concatenate-d2fe6d71716384862735cab74de7be2d', 4, 5, 5)")>)
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 4, 5, 5)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 758, in _run_callback
+    ret = callback()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 779, in _discard_future_result
+    future.result()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/gen.py", line 326, in wrapper
+    yielded = next(result)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 4, 5, 5)"
+distributed.worker - ERROR - "('concatenate-d2fe6d71716384862735cab74de7be2d', 11, 5, 2)"
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 11, 5, 2)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 11, 5, 2)"
+distributed.worker - ERROR - "('concatenate-d2fe6d71716384862735cab74de7be2d', 13, 5, 2)"
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 13, 5, 2)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 13, 5, 2)"
+tornado.application - ERROR - Exception in callback functools.partial(<function wrap.<locals>.null_wrapper at 0x2aab6cdfee18>, <Future finished exception=KeyError("('concatenate-d2fe6d71716384862735cab74de7be2d', 11, 5, 2)")>)
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 11, 5, 2)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 758, in _run_callback
+    ret = callback()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 779, in _discard_future_result
+    future.result()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/gen.py", line 326, in wrapper
+    yielded = next(result)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 11, 5, 2)"
+tornado.application - ERROR - Exception in callback functools.partial(<function wrap.<locals>.null_wrapper at 0x2aab73e33378>, <Future finished exception=KeyError("('concatenate-d2fe6d71716384862735cab74de7be2d', 13, 5, 2)")>)
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2053, in execute
+    data[k] = self.data[k]
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/buffer.py", line 72, in __getitem__
+    raise KeyError(key)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 13, 5, 2)"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 758, in _run_callback
+    ret = callback()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/ioloop.py", line 779, in _discard_future_result
+    future.result()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/gen.py", line 326, in wrapper
+    yielded = next(result)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 2056, in execute
+    data[k] = Actor(type(self.actors[k]), self.address, k, self)
+KeyError: "('concatenate-d2fe6d71716384862735cab74de7be2d', 13, 5, 2)"
+distributed.worker - INFO - Can't find dependencies for key ('func-overlap-getitem-bb62fae0cdb5f699993015b96324e87e', 0, 6, 4, 0)
+distributed.worker - INFO - Dependent not found: ('concatenate-getitem-0492d4f74ee1dd7cebb39de1317245fa', 0.09999999999999998, 6, 4) 0 .  Asking scheduler
+distributed.worker - INFO - Stopping worker at tcp://10.148.7.122:48987
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.7.122:55853'
+distributed.dask_worker - INFO - End worker

@@ -1,0 +1,30 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.9.172:37014'
+Process ForkServerProcess-1:
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/process.py", line 173, in _run
+    target(*args, **kwargs)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/nanny.py", line 511, in _run
+    worker = Worker(*worker_args, **worker_kwargs)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 416, in __init__
+    File(path))
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/zict/file.py", line 63, in __init__
+    os.mkdir(self.directory)
+FileNotFoundError: [Errno 2] No such file or directory: '/glade/scratch/baird/dask-temporary/worker-2t7ie2pf/storage'
+distributed.nanny - WARNING - Worker process 71579 exited with status 1
+distributed.nanny - WARNING - Restarting worker
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.9.172:37014'
+distributed.dask_worker - INFO - End worker
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/multiprocessing/queues.py", line 242, in _feed
+    send_bytes(obj)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe

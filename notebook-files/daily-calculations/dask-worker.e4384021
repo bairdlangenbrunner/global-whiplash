@@ -1,0 +1,50 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.7.161:60433'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.7.161:40558
+distributed.worker - INFO -          Listening to:   tcp://10.148.7.161:40558
+distributed.worker - INFO -              nanny at:         10.148.7.161:60433
+distributed.worker - INFO -              bokeh at:         10.148.7.161:38064
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.13.4:35142
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/dask-temporary/worker-emoa26vg
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:    tcp://10.148.13.4:35142
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - ERROR - failed during get data with tcp://10.148.7.161:40558 -> None
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/comm/tcp.py", line 246, in write
+    yield future
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/worker.py", line 949, in get_data
+    compressed = yield comm.write(msg, serializers=serializers)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/comm/tcp.py", line 250, in write
+    convert_stream_closed_error(self, e)
+  File "/glade/u/home/baird/miniconda3/envs/pangeo/lib/python3.7/site-packages/distributed/comm/tcp.py", line 129, in convert_stream_closed_error
+    raise CommClosedError("in %s: %s: %s" % (obj, exc.__class__.__name__, exc))
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.core - INFO - Lost connection to 'tcp://10.148.13.4:37345': in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.13.4:35142
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.13.4:35142
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.13.4:35142
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.13.4:35142
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.13.4:35142
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.13.4:35142
+distributed.worker - INFO - Stopping worker at tcp://10.148.7.161:40558
+distributed.diskutils - ERROR - Failed to remove '/glade/scratch/baird/dask-temporary/worker-emoa26vg' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/glade/scratch/baird/dask-temporary/worker-emoa26vg'
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.7.161:60433'
+distributed.dask_worker - INFO - End worker

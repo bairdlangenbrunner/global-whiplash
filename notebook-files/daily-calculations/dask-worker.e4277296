@@ -1,0 +1,26 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.10.66:37315'
+distributed.worker - INFO -       Start worker at:   tcp://10.148.10.66:35251
+distributed.worker - INFO -          Listening to:   tcp://10.148.10.66:35251
+distributed.worker - INFO -              nanny at:         10.148.10.66:37315
+distributed.worker - INFO -              bokeh at:         10.148.10.66:34241
+distributed.worker - INFO - Waiting to connect to:  tcp://10.148.13.150:44940
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /var/tmp/pbs.4277296.chadmin1/worker-q8sgd2i2
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://10.148.13.150:44940
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 41.70s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 40.59s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 16.53s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 42.77s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 10.90s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Can't find dependencies for key ('func-overlap-getitem-9b35b2fb40f7cc4a57eb77b82250a3fd', 4, 7, 7, 0)
+distributed.worker - INFO - Dependent not found: ('getitem-0492d4f74ee1dd7cebb39de1317245fa', 5, 7, 7) 0 .  Asking scheduler
+=>> PBS: job killed: walltime 10859 exceeded limit 10800
+distributed.dask_worker - INFO - Exiting on signal 15
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.10.66:37315'
+distributed.nanny - WARNING - Worker process 27387 was killed by unknown signal
+distributed.dask_worker - INFO - End worker

@@ -1,0 +1,57 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://10.148.7.56:50051'
+distributed.diskutils - INFO - Found stale lock file and directory '/glade/scratch/baird/dask-temporary/worker-cw5dm4d0', purging
+distributed.worker - INFO -       Start worker at:    tcp://10.148.7.56:45521
+distributed.worker - INFO -          Listening to:    tcp://10.148.7.56:45521
+distributed.worker - INFO -              nanny at:          10.148.7.56:50051
+distributed.worker - INFO -              bokeh at:          10.148.7.56:54699
+distributed.worker - INFO - Waiting to connect to:    tcp://10.148.13.4:59754
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                         36
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /glade/scratch/baird/dask-temporary/worker-ipt7t_s8
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:    tcp://10.148.13.4:59754
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - WARNING -  Compute Failed
+Function:  getitem
+args:      ("('concatenate-37fa85f0bf0d2e8ea95ac9021316bf7c', 0, 1, 6)", (slice(-15, None, None), slice(None, None, None), slice(None, None, None)))
+kwargs:    {}
+Exception: TypeError('string indices must be integers')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  getitem
+args:      ("('concatenate-37fa85f0bf0d2e8ea95ac9021316bf7c', 0, 1, 6)", (slice(0, 15, None), slice(None, None, None), slice(None, None, None)))
+kwargs:    {}
+Exception: TypeError('string indices must be integers')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  getitem
+args:      ("('concatenate-37fa85f0bf0d2e8ea95ac9021316bf7c', 1, 1, 10)", (slice(0, 15, None), slice(None, None, None), slice(None, None, None)))
+kwargs:    {}
+Exception: TypeError('string indices must be integers')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  getitem
+args:      ("('concatenate-37fa85f0bf0d2e8ea95ac9021316bf7c', 0, 5, 8)", (slice(-15, None, None), slice(None, None, None), slice(None, None, None)))
+kwargs:    {}
+Exception: TypeError('string indices must be integers')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  getitem
+args:      ("('concatenate-37fa85f0bf0d2e8ea95ac9021316bf7c', 0, 5, 8)", (slice(0, 15, None), slice(None, None, None), slice(None, None, None)))
+kwargs:    {}
+Exception: TypeError('string indices must be integers')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  getitem
+args:      ("('concatenate-37fa85f0bf0d2e8ea95ac9021316bf7c', 1, 6, 0)", (slice(0, 15, None), slice(None, None, None), slice(None, None, None)))
+kwargs:    {}
+Exception: TypeError('string indices must be integers')
+
+distributed.utils_perf - INFO - full garbage collection released 219.98 MB from 206 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 217.69 MB from 220 reference cycles (threshold: 10.00 MB)
+=>> PBS: job killed: walltime 3629 exceeded limit 3600
+distributed.dask_worker - INFO - Exiting on signal 15
+distributed.nanny - INFO - Closing Nanny at 'tcp://10.148.7.56:50051'
+distributed.dask_worker - INFO - End worker
